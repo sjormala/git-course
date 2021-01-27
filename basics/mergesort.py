@@ -9,6 +9,7 @@ def debug_print(debug_msg=None, **kwargs):
 
 
 def mergesort(array):
+
     if len(array) <= 1:
         return array
 
